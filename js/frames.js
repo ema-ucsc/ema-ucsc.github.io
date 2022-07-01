@@ -27,6 +27,10 @@ function frames(variable){
         document.getElementById("enframe").height="530";
     }
     else if (variable==7){
+        document.getElementById("enframe").src="pages/galeria.html";  
+        document.getElementById("enframe").height="530";
+    }   
+    else if (variable==8){
         document.getElementById("enframe").src="pages/contacto.html";  
         document.getElementById("enframe").height="530";
     }
