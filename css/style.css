@@ -258,11 +258,11 @@ li#lihome a{
 /* Footer */
 #footer {    
     clear: both;
-    padding: 10px 0 10px;
+    padding: 35px 0 10px;
     text-align: center;
     color: #fff;
     font-size: 1em;
-    background : url(../img/slide-bg.png) 0 0;
+    background : url(../img/footer.png) 0 0;
 }
 
 #footer a{
