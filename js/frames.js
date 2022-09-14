@@ -20,7 +20,7 @@ function frames(variable){
     }   
     else if (variable==5){
         document.getElementById("enframe").src="pages/postulacion.html";
-        document.getElementById("enframe").height="1450";
+        document.getElementById("enframe").height="1500";
     }
     else if (variable==6){
         document.getElementById("enframe").src="pages/patrocinadores.html";
