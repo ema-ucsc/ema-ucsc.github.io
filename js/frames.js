@@ -34,4 +34,8 @@ function frames(variable){
         document.getElementById("enframe").src="pages/contacto.html";  
         document.getElementById("enframe").height="550";
     }
+    else if (variable==9){
+        document.getElementById("enframe").src="pages/becas.html";  
+        document.getElementById("enframe").height="550";
+    }
 } 
