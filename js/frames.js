@@ -20,7 +20,7 @@ function frames(variable){
     }   
     else if (variable==5){
         document.getElementById("enframe").src="pages/postulacion.html";
-        document.getElementById("enframe").height="1050";
+        document.getElementById("enframe").height="1250";
     }
     else if (variable==6){
         document.getElementById("enframe").src="pages/patrocinadores.html";
@@ -36,6 +36,6 @@ function frames(variable){
     }
     else if (variable==9){
         document.getElementById("enframe").src="pages/becas.html";  
-        document.getElementById("enframe").height="1050";
+        document.getElementById("enframe").height="1150";
     }
 } 
