@@ -36,6 +36,6 @@ function frames(variable){
     }
     else if (variable==9){
         document.getElementById("enframe").src="pages/becas.html";  
-        document.getElementById("enframe").height="1250";
+        document.getElementById("enframe").height="1350";
     }
 } 
