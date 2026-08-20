@@ -57,7 +57,7 @@ td {
 }
 
 td#programa {
-    text-align: right;
+    text-align: left;
     width: 12%;
     border: 2px solid #392222;
 }
