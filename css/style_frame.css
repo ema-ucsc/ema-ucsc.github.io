@@ -47,7 +47,6 @@ h3 {
 
 table {
     width: 100%; 
-    text-align: center;
     border-collapse: collapse; 
 }
 
@@ -59,6 +58,12 @@ td {
 
 td#programa {
     text-align: right;
+    width: 12%;
+    border: 2px solid #392222;
+}
+
+td#programac {
+    text-align: center;
     width: 12%;
     border: 2px solid #392222;
 }
