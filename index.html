@@ -1,93 +1,109 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>&nbsp; EMA-P2026 &nbsp;</title>
-    <meta name="author" content="EMA-P2026" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="icon" type="image/ico" href="img/favicon.png" /> 
- 
-    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-    <script type="text/javascript" src="js/frames.js"></script>
-    <script type="text/javascript" src="js/slider.js"></script>
-    <script type="text/javascript">
-        if(!window.slider) 
-            var slider={};
-            slider.data=[{"id":"img-1","desc":"M2A-UCSC: Escuela de Matemática Aplicada, Primavera 2025"},{"id":"img-7","desc":"M2A-UCSC: Escuela de Matemática Aplicada, Primavera 2023"},{"id":"img-3","desc":"Análisis Numérico de EDP: Flujo de un fluido a través de un medio poroso con fracturas."},{"id":"img-4","desc":"M2A-UCSC: Estudiantes del Programa de Magíster en Matemática Aplicada"},{"id":"img-5","desc":"Sistemas Dinámicos: Atractor de Lorenz"},{"id":"img-6","desc":"Vista aérea del Campus San Andrés de la UCSC"},{"id":"img-8","desc":"M2A-UCSC: Escuela de Matemática Aplicada, Primavera 2023"},{"id":"img-9","desc":"M2A-UCSC: Escuela de Matemática Aplicada, Primavera 2023"}];
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EMA-P2026 · Escuela de Matemática Aplicada</title>
+  <meta name="author" content="EMA-UCSC">
+  <meta name="description" content="Escuela de Matemática Aplicada, Primavera 2026 (EMA-P2026). Evento organizado por el Magíster en Matemática Aplicada (M2A), Facultad de Ingeniería, Universidad Católica de la Santísima Concepción, Chile.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="https://ema-ucsc.github.io/">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/slider.js" defer></script>
 </head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-<body onmousedown='return false;' onselectstart='return false;'>
-	
-<style>
-body{
-            font-size: 11pt; /* Tamaño de letra de 12 puntos */
-        }
-</style>
+  <nav class="topbar" aria-label="Enlaces institucionales">
+    <ul>
+      <li><a href="./">INICIO</a></li>
+      <li><a href="http://m2a.ucsc.cl" target="_blank" rel="noopener">M2A-UCSC</a></li>
+      <li><a href="https://ingenieria.ucsc.cl" target="_blank" rel="noopener">INGENIERÍA-UCSC</a></li>
+      <li><a href="http://dmfa.ucsc.cl" target="_blank" rel="noopener">DMFA-UCSC</a></li>
+      <li><a href="https://vinculacion.ucsc.cl/" target="_blank" rel="noopener">VRVM-UCSC</a></li>
+      <li><a href="https://postgrados.ucsc.cl" target="_blank" rel="noopener">POSTGRADOS-UCSC</a></li>
+    </ul>
+  </nav>
 
-<center>
-
-<div id="header">
-<a href=""> INICIO </a> &nbsp; &nbsp; | &nbsp; &nbsp;
-<a href="http://m2a.ucsc.cl" target="_blank">M2A-UCSC</a> &nbsp; &nbsp; | &nbsp; &nbsp;    
-<a href="https://ingenieria.ucsc.cl" target="_blank">Ingeniería-UCSC</a> &nbsp; &nbsp; | &nbsp; &nbsp;    
-<a href="http://dmfa.ucsc.cl" target="_blank">DMFA-UCSC</a> &nbsp; &nbsp; | &nbsp; &nbsp;      
-<a href="https://vinculacion.ucsc.cl/" target="_blank">VRVM-UCSC</a> &nbsp; &nbsp; | &nbsp; &nbsp;          			
-<a href="https://postgrados.ucsc.cl" target="_blank">POSTGRADOS-UCSC</a>
-</div>
-
-<div id="container">
-<img src="img/main-banner-2026.png" width="98%">
-
-    <div id="navigation-sup">
-
+  <div class="wrapper">
+    <div class="hero">
+      <a href="./"><img src="img/main-banner-2026.png" alt="Universidad Católica de la Santísima Concepción. Escuela de Matemática Aplicada, Primavera 2026 (EMA-P2026). Del 13 al 15 de Octubre" width="900" height="120"></a>
     </div>
 
-    <div id="slider">
-        <div class="wrap"><div id="slide-holder"><div id="slide-runner"> 	
-	    <img id="img-1" src="img/banner/banner-EMA-P2025_grupal-1.jpeg" width="100%"> 
-<img id="img-7" src="img/banner/banner-EMAP-2023a.png" width="100%">  	
-            <img id="img-3" src="img/banner/fracture.jpg" width="100%">
-            <img id="img-4" src="img/banner/estudiantes-m2a-2022.jpg" width="100%">  
-            <img id="img-5" src="img/banner/Lorenz.jpg" width="100%">  				
-            <img id="img-6" src="img/banner/campus-ucsc.jpg" width="100%">  
-		<img id="img-8" src="img/banner/banner-EMAP-2023b.png" width="100%">  
-		<img id="img-9" src="img/banner/banner-EMAP-2023c.png" width="100%">  
-                <div id="slide-controls">
-                    <p id="slide-desc" class="text"></p>
-                    <p id="slide-nav"></p>
-                </div>
-        </div></div></div>
-    </div>
+    <section class="slider" aria-roledescription="carousel" aria-label="Imágenes de las escuelas">
+      <div class="slide" data-desc="M2A-UCSC: Escuela de Matemática Aplicada, Primavera 2025">
+        <img src="img/banner/banner-EMA-P2025_grupal-1.jpeg" alt="M2A-UCSC: Escuela de Matemática Aplicada, Primavera 2025" width="864" height="200">
+      </div>
+      <div class="slide" data-desc="M2A-UCSC: Escuela de Matemática Aplicada, Primavera 2023">
+        <img src="img/banner/banner-EMAP-2023a.png" alt="M2A-UCSC: Escuela de Matemática Aplicada, Primavera 2023" width="864" height="200" loading="lazy">
+      </div>
+      <div class="slide" data-desc="Análisis Numérico de EDP: Flujo de un fluido a través de un medio poroso con fracturas.">
+        <img src="img/banner/fracture.jpg" alt="Análisis Numérico de EDP: Flujo de un fluido a través de un medio poroso con fracturas." width="864" height="200" loading="lazy">
+      </div>
+      <div class="slide" data-desc="M2A-UCSC: Estudiantes del Programa de Magíster en Matemática Aplicada">
+        <img src="img/banner/estudiantes-m2a-2022.jpg" alt="M2A-UCSC: Estudiantes del Programa de Magíster en Matemática Aplicada" width="864" height="200" loading="lazy">
+      </div>
+      <div class="slide" data-desc="Sistemas Dinámicos: Atractor de Lorenz">
+        <img src="img/banner/Lorenz.jpg" alt="Sistemas Dinámicos: Atractor de Lorenz" width="864" height="200" loading="lazy">
+      </div>
+      <div class="slide" data-desc="Vista aérea del Campus San Andrés de la UCSC">
+        <img src="img/banner/campus-ucsc.jpg" alt="Vista aérea del Campus San Andrés de la UCSC" width="864" height="200" loading="lazy">
+      </div>
+      <div class="slide" data-desc="M2A-UCSC: Escuela de Matemática Aplicada, Primavera 2023">
+        <img src="img/banner/banner-EMAP-2023b.png" alt="M2A-UCSC: Escuela de Matemática Aplicada, Primavera 2023" width="864" height="200" loading="lazy">
+      </div>
+      <div class="slide" data-desc="M2A-UCSC: Escuela de Matemática Aplicada, Primavera 2023">
+        <img src="img/banner/banner-EMAP-2023c.png" alt="M2A-UCSC: Escuela de Matemática Aplicada, Primavera 2023" width="864" height="200" loading="lazy">
+      </div>
+      <button class="slider-arrow prev" type="button" aria-label="Banner anterior">&#10094;</button>
+      <button class="slider-arrow next" type="button" aria-label="Banner siguiente">&#10095;</button>
+      <div class="slider-bar">
+        <p class="slider-caption" aria-live="off"></p>
+        <div class="slider-dots"></div>
+      </div>
+    </section>
+  </div>
 
-    <div id="content">
-        <div id="menu">
-	    <ul class="nav-menu">					
-            <li><a href="#" onclick="frames(1)">Inicio</a></li>
-            <li><a href="#" onclick="frames(2)">Programa</a></li>
-            <li><a href="#" onclick="frames(3)">Cursillos</a></li>      
-            <li><a href="#" onclick="frames(4)">Charlas</a></li>            		    
-            <li><a href="#" onclick="frames(5)">Postulación</a></li>
-	    <li><a href="#" onclick="frames(9)">Becas</a></li>
-            <li><a href="#" onclick="frames(6)">Patrocinadores</a></li>
-            <li><a href="#" onclick="frames(7)">Galeria EMA-UCSC</a></li>		    
-            <li><a href="#" onclick="frames(8)">Contacto</a></li>
-        </ul>
-	</div>
+  <div class="wrapper layout">
+    <nav class="sidebar" aria-label="Principal">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">Menú</button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="./" aria-current="page">Inicio</a></li>
+        <li><a href="programa">Programa</a></li>
+        <li><a href="cursillos">Cursillos</a></li>
+        <li><a href="charlas">Charlas</a></li>
+        <li><a href="postulacion">Postulación</a></li>
+        <li><a href="becas">Becas</a></li>
+        <li><a href="patrocinadores">Patrocinadores</a></li>
+        <li><a href="galeria">Galeria EMA-UCSC</a></li>
+        <li><a href="contacto">Contacto</a></li>
+      </ul>
+    </nav>
 
-	<div id="main-body">
-            <iframe id="enframe" scrolling="auto" frameborder="0" height="600" width ="100%" src="pages/home.html"></iframe>
+    <main id="contenido">
+    <article class="panel">
+      <h1>Escuela de Matemática Aplicada, Primavera 2026 (EMA-P2026)</h1>
+      <p>La Escuela de Matemática Aplicada-Primavera 2026 (EMA-P2026) es un evento organizado por el programa de postgrado <a href="http://m2a.ucsc.cl" target="_blank" rel="noopener">Magíster en Matemática Aplicada (M2A)</a> de la Facultad de Ingeniería de la <b>Universidad Católica de la Santísima Concepción</b>, Chile. Se llevará a cabo del <b class="hl">13 al 15 de octubre de 2026</b> y tiene como objetivo principal dar a conocer las líneas de investigación que actualmente se desarrollan en el programa.</p>
+      <p>La escuela está dirigida a graduados o estudiantes de los últimos semestres de Licenciatura en Matemáticas o áreas afines, así como de programas de pregrado con fuerte base matemática y que tengan interés en matricularse en un programa de postgrado que potencie su formación académica y preparación científica especializada en áreas de la Matemática Aplicada.</p>
+      <p>Se ofrecerán dos cursillos representativos de las líneas de investigación del programa: <b>Análisis Numérico de Ecuaciones Diferenciales Parciales</b> y <b>Sistemas Dinámicos</b>. Además, cuatro charlas en las cuales se presentan temas de investigación de las dos líneas desarrolladas por profesores y egresados del M2A.</p>
+
+      <div class="figures">
+        <figure class="poster">
+          <a href="img/poster-EMA-P2026.jpg" target="_blank" rel="noopener"><img src="img/poster-EMA-P2026.jpg" alt="Afiche EMA-P2026" width="792" height="1224"></a>
+        </figure>
+        <div>
+          <h2>Fechas importantes:</h2>
+          <p>Las postulaciones a <b>becas de alojamiento </b>están abiertas hasta el día <b>lunes 7 de septiembre.</b> (plazo terminado)</p>
+          <p>Las <b>postulaciones al evento </b> están abiertas hasta el día <b>viernes 25 de septiembre.</b> (plazo terminado)</p>
         </div>
-    </div>
-    
-    <div id="footer">
-&nbsp; 
-    </div>
+      </div>
+    </article>
+    </main>
+  </div>
 
-</div>
-
-</center>
-
+  <footer class="site-footer">
+    <img src="img/footer.png" alt="Universidad Acreditada Nivel Excelencia, CNA Chile · UCSC" width="900" height="59">
+  </footer>
 </body>
-
 </html>
