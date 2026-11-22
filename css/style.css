@@ -392,6 +392,10 @@ main { min-width: 0; }
 .panel h2.day { margin: 30px 0 12px; }
 .featured { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin: 22px 0 8px; }
 .featured img { height: 250px; width: auto; max-width: 100%; border: 2px solid var(--edge); object-fit: cover; }
+/* Fila única: cada foto ocupa un ancho proporcional a su forma (--ar la fija js/slider.js), así quedan con la misma altura */
+.featured.one-row { flex-wrap: nowrap; gap: 10px; align-items: flex-start; }
+.featured.one-row a { flex: var(--ar, 1) 1 0; min-width: 0; display: block; }
+.featured.one-row img { width: 100%; height: auto; max-height: none; display: block; }
 .thumbs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
 .thumbs img { height: 88px; width: auto; border: 2px solid var(--edge); object-fit: cover; }
 .thumbs a:hover img, .featured a:hover img { border-color: var(--accent); }
@@ -426,6 +430,7 @@ main { min-width: 0; }
   .slider-arrow { display: none; }
 
   .featured img { height: auto; width: 100%; }
+  .featured.one-row { gap: 6px; }
   .thumbs img { height: 72px; }
   .years { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .years img { height: 150px; }
