@@ -12,6 +12,16 @@
     });
   }
 
+  // ---- Fila de fotos destacadas: ancho proporcional a cada imagen -----------
+  Array.prototype.forEach.call(document.querySelectorAll(".featured.one-row img"), function (img) {
+    function set() {
+      if (img.naturalWidth && img.naturalHeight) {
+        img.parentNode.style.setProperty("--ar", (img.naturalWidth / img.naturalHeight).toFixed(4));
+      }
+    }
+    if (img.complete) set(); else img.addEventListener("load", set);
+  });
+
   // ---- Slider (solo en la página de inicio) ------------------------------
   var slider = document.querySelector(".slider");
   if (!slider) return;
